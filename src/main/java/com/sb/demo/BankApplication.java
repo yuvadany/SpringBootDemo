@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 import com.sb.demo.controller.BankController;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.sb.demo")
 public class BankApplication {
 	private static Logger logger = LoggerFactory.getLogger(BankApplication.class);
 	public static void main(String[] args) {
